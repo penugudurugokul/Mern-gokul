@@ -1,1 +1,37 @@
-Hi Gokul
+1  mongosh
+    2  grep ^NAME  /etc/*release
+    3  sudo yum install -y mongodb-org
+    4  vi /etc/yum.repos.d/mongodb-org-8.0.repo
+    5  sudo vi /etc/yum.repos.d/mongodb-org-8.0.repo
+    6  ls /etc/yum.repos.d
+    7  cat /etc/yum.repos.d/amazonlinux.repo
+    8  sudo yum install -y mongodb-org
+    9  ps --no-headers -o comm 1
+   10  sudo systemctl start mongod
+   11  sudo systemctl status mongod
+   12  mongosh
+   13  sudo yum remove mongodb-mongosh
+   14  sudo yum install mongodb-mongosh-shared-openssl3
+   15  sudo yum install mongodb-mongosh
+   16  mongosh
+   17  ls
+   18  git clone https://github.com/PRASANTH-REDDY-NANDHARAPU/stnupai.git
+   19  sudo yum install git 
+   20  git clone https://github.com/PRASANTH-REDDY-NANDHARAPU/stnupai.git
+   21  cd stnupai/
+   22  ls
+   23  sudo  curl -fsSL https://rpm.nodesource.com/setup_18.x | sudo bash -
+   24  dnf install nsolid -y
+   25  sudo dnf install nsolid -y
+   26 ##  nodejs --version
+   27  node --version
+   28  npm --version
+   29  vi server.js 
+   30  npm insatll
+   31  npm install
+   32  ls
+   33  ls node_modules/
+   34  npm start server.js 
+   35  ls
+   36  cd stnupai/
+   37  ls
